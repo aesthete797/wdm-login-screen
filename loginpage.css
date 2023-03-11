@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+	 transition: 0.5s;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+    display: block;
+    margin: 0px;
+}
+
+.container {
+  display: flex;
+}
+
+.logo {
+  display: block;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo:hover {
+	transform: translateY(-1rem) ScaleX(1.02);
+}
+
+.nice-image img{
+  width: 683px;
+  height: 768px;
+}
+
+.sign-up {
+  width: 683px;
+  height: 768px;
+  background-color: white;
+}
+
+input, button {
+  display: block;
+  margin: auto;
+}
+
+h2, p {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button, input {
+  width: 290px;
+  height: 40px;
+  padding: 0px;
+  margin-bottom: 15px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+
+button {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {  
+  display: inline;
+  margin-right: 15px;
+}
+
+input {
+  padding: 0px;
+  padding-left: 10px;
+  width: 290px;
+  height: 40px;
+}
+
+button:hover {
+	background-color: #000000;
+	color: white;
+	}
+
+
+.hor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+
+h3 {
+  font- size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #c4c4c4;
+}
+
+hr {
+  width: 120px;
+  margin: 0px;
+  border: 1px solid #c4c4c4;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: 600;
+  color: black;
+}
+
+ @media (max-width: 680px)  {
+  .sign-up {
+  width: 100%;
+  height: 768px;
+}
+
+.nice-image img{
+  display: hidden;
+  width: 0px;
+  height: 0px;
+}
+    
+  }
+  /** designed for screen: 1366 * 693. PC
+  and 522 * 684. wide mobile. **/
